@@ -1,0 +1,139 @@
+.container_flex{
+    width: 500px;
+    height: 500px;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.flex_container{
+    display: flex ;
+    align-items: start; /* It arrange contents vertically*/
+    justify-content: space-evenly;/* It arrange contents horizontally*/
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 300px;
+    gap: 4px;
+    
+}
+.grid_container > h1{
+    margin: 0;
+    padding: 0;
+}
+.grid1{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid2{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid3{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid4{
+    background-color: peru;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid5{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid6{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid7{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid8{
+    background-color: peru;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid9{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid10{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid11{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid12{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid13{
+    background-color: peru;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid14{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid15{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid16{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+background-color: blueviolet;
+width: fit-content;
+}
+
+.box3{
+    background-color: aqua;
+}
