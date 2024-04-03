@@ -12,6 +12,7 @@
     justify-content: space-evenly;/* It arrange contents horizontally*/
 }
 .grid_container{
+   
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -24,96 +25,112 @@
     padding: 0;
 }
 .grid1{
+    border-radius: 20px;
     background-color: brown;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid2{
+    border-radius: 20px;
     background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid3{
+    border-radius: 20px;
     background-color: pink;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid4{
+    border-radius: 20px;
     background-color: peru;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid5{
+    border-radius: 20px;
     background-color: brown;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid6{
+    border-radius: 20px;
     background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid7{
+    border-radius: 20px;
     background-color: pink;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid8{
+    border-radius: 20px;
     background-color: peru;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid9{
+    border-radius: 20px;
     background-color: brown;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid10{
+    border-radius: 20px;
     background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid11{
+    border-radius: 20px;
     background-color: brown;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid12{
+    border-radius: 20px;
     background-color: pink;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid13{
+    border-radius: 20px;
     background-color: peru;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid14{
+    border-radius: 20px;
     background-color: brown;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid15{
+    border-radius: 20px;
     background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .grid16{
+    border-radius: 20px;
     background-color: pink;
     display: flex;
     align-items: center;
