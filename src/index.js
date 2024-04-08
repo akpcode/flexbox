@@ -8,7 +8,7 @@ import Flexbox from './Flexbox';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Flexbox/>
+    <App/>
   </React.StrictMode>
 );
 
