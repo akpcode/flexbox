@@ -3,9 +3,9 @@ import React from 'react'
 function NavbarItems() {
   return (
     <div className='navbaritems'>
-        <div className='h'> Home</div>
-           <div>About</div>
-           <div>Contact</div>
+        <div className='navbutton'> Home</div>
+           <div className='navbutton'>About</div>
+           <div className='navbutton'>Contact</div>
     </div>
   );
 }
