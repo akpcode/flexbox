@@ -5,6 +5,7 @@ function Form() {
     const [name, setName] = useState("");
     const [Password, setPassword] = useState("");
     const [email, setEmail] = useState("");
+    const [problems, setProblems] = useState("");
   console.log(name, Password, email);
   
     function handleSubmit(e){
@@ -40,7 +41,15 @@ function Form() {
         setEmail(e.target.value);
     }} />
         </div>
-        <input type="submit" name="submit" className="form_btn"/>
+        <div className='form_body'>
+            <label>
+                Log your complains
+            </label>
+            <textarea className='input_textarea'
+            value={problems} onChange={(e)=>setProblems(e.target.value)}>Complains</textarea>
+        </div>
+        <input type="submit" name="submit" 
+        className="form_btn"/>
     </form>
   )
 }
